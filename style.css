@@ -1,0 +1,35 @@
+.zaslon { 
+   border-width: 1px;
+   border-color: black;
+   background-color: white;
+}
+
+#zaslon_up {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+	border-bottom-style:none;
+	background-color: white;
+}
+
+#zaslon_down {
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+	background-color: white;
+}
+
+#kalkulator {
+	margin: auto;
+	}
+	
+.data_button {
+	width: 10%;
+	height: 10%;
+	}
+	
+.number, .operator, .decimal, .leftParent, .rightParent, .negative, .DEL, .AC {
+	width: 100%;
+	height: 100%;
+	}

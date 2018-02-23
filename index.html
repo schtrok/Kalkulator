@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kalkulator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery.js"></script>
+<script src="jquery-color.js"></script>
+</head>
+<body>
+
+<div id="container">
+	<table id = "kalkulator">
+		<tr>
+			<td colspan=5 class="zaslon" id="zaslon_up"></td>
+		</tr>
+		<tr>
+			<td colspan=5 class="zaslon" id="zaslon_down"></td>
+		</tr>
+		<tr>
+			<td class="data_button">
+				<button id="sedam" class="number">7</button></td>
+			<td class="data_button">
+				<button id="osam" class="number">8</button></td>
+			<td class="data_button">
+				<button id="devet" class="number">9</button></td>
+			<td class="data_button">
+				<button id="dijeli" class="operator">/</button></td>
+			<td class="data_button">
+				<button id="dijeli" class="DEL">DEL</button></td>
+			
+		</tr>
+		<tr>
+			<td class="data_button">
+				<button id="cetiri" class="number">4</button></td>
+			<td class="data_button">
+				<button id="pet" class="number">5</button></td>
+			<td class="data_button">
+				<button id="sest" class="number">6</button></td>
+			<td class="data_button">
+				<button id="mnozi" class="operator">*</button></td>
+			<td class="data_button">
+				<button id="left_parentheses" class="leftParent">(</button></td>
+		</tr>
+		<tr>
+			<td class="data_button">
+				<button id="jedan" class="number">1</button></td>
+			<td class="data_button">
+				<button id="dva" class="number">2</button></td>
+			<td class="data_button">
+				<button id="tri" class="number">3</button></td>
+			<td class="data_button">
+				<button id="oduzmi" class="negative">-</button></td>
+			<td class="data_button">
+				<button id="right_parentheses" class="rightParent">)</button></td>
+		</tr>
+		<tr>
+			<td class="data_button">
+				<button id="nula" class="number">0</button></td>
+			<td class="data_button">
+				<button id="decimal" class="decimal">.</button></td>
+			<td class="data_button">
+				<button id="jednako" class="operator">=</button></td>
+			<td class="data_button">
+				<button id="number" class="operator">+</button></td>
+			<td class="data_button">
+				<button id="AC" class="AC">AC</button></td>
+		</tr>
+	</table>
+	</br>
+	<button class="fetch">Print saved operations</button>
+	<button class="clear_saved">Clear saved</button>
+	<p id="operations"></p>
+	<p id="operations2"></p>
+	<button id="sendphp">Send to .php script</button>
+	<p id="server_response">Server response: </p>
+</div>
+
+<script src="skripta.js"></script>
+
+</body>
+</html>
